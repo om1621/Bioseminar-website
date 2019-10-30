@@ -1,1 +1,1 @@
-# om1621.github.io
+Website for the BioTechonology Seminar in IIIT Alladabad
