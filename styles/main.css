@@ -3192,7 +3192,7 @@ footer
 .rdab
 {
     font-size: 4pc;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
 }
 
 .headline
@@ -3232,6 +3232,7 @@ footer
     letter-spacing: 2px;
     margin-bottom: 7px;
     font-weight: 700;
+    color: #4e0a0a;
 }
 
 .faculty .person
@@ -3461,6 +3462,16 @@ footer
     display: none;
 }
 
+.chairman
+{
+    margin-top: 80px;
+}
+
+.convener
+{
+    margin-bottom: 80px;
+}
+
 @media screen and (max-width: 440px)
 {
     .dekstop
@@ -3482,5 +3493,24 @@ footer
     {
         padding: 0;
     }
+
+    .chairman
+    {
+        margin-top: 60px;
+    }
+    
+    .convener
+    {
+        margin-bottom: 0px;
+    }
+
+    .convener:nth-child(2)
+    {
+        margin-bottom: 80pxs;
+    }
 }
 
+.member
+{
+    margin-bottom: 20px;
+}
