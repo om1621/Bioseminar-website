@@ -501,6 +501,7 @@ table {
 
 .Container a .Text{
     margin-top: -24px;
+    font-weight: 700;
 }
 
 .Dropdown {
@@ -1064,7 +1065,7 @@ table {
 }
 
 .Header {
-    padding: 10px 0 7px;
+    /* padding: 10px 0 7px; */
     position: absolute;
     top: 0;
     -webkit-transform: translateZ(0);
@@ -1080,7 +1081,7 @@ table {
     position: relative
 }
 
-@media only screen and (min-width:768px) {
+/* @media only screen and (min-width:768px) {
     .Header {
         padding: 18px 0 10px
     }
@@ -1091,7 +1092,7 @@ table {
     .Header {
         padding: 50px 0 10px
     }
-}
+} */
 
 .Header.is-sticky {
     background: #000
@@ -2171,7 +2172,7 @@ a:hover{
 @media screen and (max-width:440px)
 {
     #sponsor {
-        width: 80%!important;
+        width: 100%!important;
     }
     
 }
@@ -3178,7 +3179,7 @@ footer
 {
         a.Nav-item
         {
-            color:#338ecf !important;
+            font-weight: 700;
         }
 
         a.Nav-item:hover
@@ -3301,7 +3302,7 @@ li.time
 .contact-list li
 {
     list-style: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -3323,17 +3324,18 @@ footer
 
 .colleges
 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
 .contact-div h4
 {
-    font-size: 1.3rem;
-    color: black;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
 }
 
-.iiita
+/* .iiita
 {
     float: left;
 }
@@ -3341,11 +3343,16 @@ footer
 .twenty
 {
     float: right;
-}
+} */
 
 .col-md-6
 {
     margin-top: 60px;
+}
+
+.iiita, .twenty
+{
+    display: none;
 }
 
 @media screen and (max-width:440px)
@@ -3370,7 +3377,7 @@ footer
     }
 
     #r1 #overflow {
-        margin-top: 60px;
+        margin-top: 40px;
         max-width: 100%;
         font-size: 18px !important;
         text-align: justify;
@@ -3391,8 +3398,89 @@ footer
         margin-top: 60px;
     }
 
-    .iiita, .twenty
+     .twenty
+    {
+        display: inline-block;
+    }
+}
+
+#advisory
+{
+    background-color: white;
+}
+
+#registrariton
+{
+    background-color: #4f7ca2;
+}
+
+.Header
+{
+    background-color: black;
+    min-height: 60px;
+}
+
+.Header div
+{
+    display: inline;
+}
+
+.college-logo
+{
+    float: left;
+}
+
+.college-logo img
+{
+    height: 70px;
+}
+
+.twenty-logo
+{
+    float: right;
+}
+
+.twenty-logo img
+{
+    height: 70px;
+}
+
+.rd
+{
+    margin-left: 3%;
+    margin-top: 9px;
+}
+
+#advisory
+{
+    padding: 40px 0 64px;
+}
+
+.mobil
+{
+    display: none;
+}
+
+@media screen and (max-width: 440px)
+{
+    .dekstop
     {
         display: none;
     }
+
+    .mobil
+    {
+        display: block;
+    }
+
+    .twenty-logo img
+    {
+        display: none;
+    }
+
+    #registration .Container
+    {
+        padding: 0;
+    }
 }
+
