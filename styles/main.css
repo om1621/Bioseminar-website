@@ -1438,7 +1438,7 @@ table {
 
 @media only screen and (min-width:768px) {
     .Nav-center {
-        margin-left: -60px;
+        margin-left: -150px;
         margin-top : -10px;
         margin-right: 10px;
     }
